@@ -1,5 +1,3 @@
-const globalEnv = require("./config/global");
-
 const rolesInfo = require("./config/roles");
 const channelsInfo = require("./config/channels");
 const newsInfo = require("./config/news");
