@@ -1,0 +1,18 @@
+{
+	"default": {
+		"name": "Survivant",
+		"color": "#e9bc34"
+	},
+	"resident": {
+		"name": "🏕️ Résident 🏕️",
+		"color": "#e99134"
+	},
+	"pilier": {
+		"name": "🍺 Pilier de bar",
+		"color": "#ff7102"
+	},
+	"missing": {
+		"name": "Disparu",
+		"color": "#000000"
+	}
+}

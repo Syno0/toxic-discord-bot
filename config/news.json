@@ -1,0 +1,136 @@
+{
+	"steam": [{
+		"id": 230410,
+		"chan": "warframe",
+		"game": "Warframe"
+	}, {
+		"id": 251570,
+		"chan": "7-days-to-die",
+		"game": "7D2D"
+	}, {
+		"id": 221100,
+		"chan": "news-en-vrac",
+		"game": "DayZ"
+	}, {
+		"id": 275850,
+		"chan": "no-mans-sky",
+		"game": "No Man's Sky"
+	}, {
+		"id": 382310,
+		"chan": "eco",
+		"game": "Eco"
+	}, {
+		"id": 1172470,
+		"chan": "apex-legends",
+		"game": "Apex Legends"
+	}, {
+		"id": 1086940,
+		"chan": "looking-for-it",
+		"game": "Baldur's Gate"
+	}, {
+		"id": 1252330,
+		"chan": "looking-for-it",
+		"game": "Deathloop"
+	}, {
+		"id": 979690,
+		"chan": "looking-for-it",
+		"game": "The Ascent"
+	}, {
+		"id": 920210,
+		"chan": "looking-for-it",
+		"game": "LEGO Star Wars"
+	}, {
+		"id": 1265780,
+		"chan": "looking-for-it",
+		"game": "LOTR Gollum"
+	}, {
+		"id": 534380,
+		"chan": "looking-for-it",
+		"game": "Dying Light 2"
+	}, {
+		"id": 1286680,
+		"chan": "looking-for-it",
+		"game": "Wonderlands"
+	}],
+	"jvc": [{
+		"id": 1237618,
+		"chan": "looking-for-it",
+		"game": "Horizon Forbidden West"
+	}, {
+		"id": 83339,
+		"chan": "overwatch",
+		"game": "Overwatch"
+	}, {
+		"id": 1136121,
+		"chan": "overwatch",
+		"game": "Overwatch 2"
+	}, {
+		"id": 79026,
+		"chan": "cyberpunk",
+		"game": "Cyberpunk 2077"
+	}, {
+		"id": 80243,
+		"chan": "heroes-of-the-storm",
+		"game": "HOTS"
+	}, {
+		"id": 1059105,
+		"chan": "switch",
+		"game": "Breath of the wild 2"
+	}, {
+		"id": 982405,
+		"chan": "looking-for-it",
+		"game": "Hytale"
+	}, {
+		"id": 68340,
+		"chan": "looking-for-it",
+		"game": "Beyond good and evil 2"
+	}, {
+		"id": 1015237,
+		"chan": "looking-for-it",
+		"game": "Back 4 Blood"
+	}, {
+		"id": 1136101,
+		"chan": "looking-for-it",
+		"game": "Diablo 4"
+	}, {
+		"id": 1366703,
+		"chan": "looking-for-it",
+		"game": "Diablo 2 Resurrected"
+	}, {
+		"id": 1325136,
+		"chan": "looking-for-it",
+		"game": "New Mass Effect"
+	}, {
+		"id": 1316997,
+		"chan": "looking-for-it",
+		"game": "Mass Effect Remaster"
+	}, {
+		"id": 1289841,
+		"chan": "looking-for-it",
+		"game": "Harry Potter"
+	}, {
+		"id": 1018483,
+		"chan": "looking-for-it",
+		"game": "Vampire - the mascarade"
+	}, {
+		"id": 970487,
+		"chan": "looking-for-it",
+		"game": "Dragon Age 4"
+	}, {
+		"id": 1139891,
+		"chan": "looking-for-it",
+		"game": "Crimson Desert"
+	}, {
+		"id": 1056358,
+		"chan": "looking-for-it",
+		"game": "Elden ring"
+	}, {
+		"id": 699721,
+		"chan": "looking-for-it",
+		"game": "Age of Empires IV"
+	}, {
+		"id": 1369312,
+		"chan": "looking-for-it",
+		"game": "FFVII Ever Crisis"
+	}]
+}
