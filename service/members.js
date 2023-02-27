@@ -92,9 +92,13 @@ async function updateDbPseudo(guild) {
 
         if(currentMember.nickname && currentMember.nickname != '' && currentMember.nickname != allUsers[i].pseudo) {
             console.log("UPDATE USERNAME " + allUsers[i].pseudo + " TO " + currentMember.nickname);
-            await allUsers[i].update({
-                pseudo: currentMember.nickname
-            });
+            try {
+                await allUsers[i].update({
+                    pseudo: currentMember.nickname
+                });
+            } catch(err) {
+                console.error(err.message);
+            }
         }
     }
 }
