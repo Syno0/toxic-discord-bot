@@ -130,7 +130,6 @@ require('./client')().then(({client, guild}) => {
 						await news.jvcNews(newsInfo.jvc[i], newsInfo.jvc[i].chan);
 					} catch(err) {
 						console.error("ERROR FOR JVC NEWS => " + newsInfo.jvc[i].game);
-						console.error(err.error);
 					}
 				}
 
