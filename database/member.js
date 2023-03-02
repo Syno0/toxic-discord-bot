@@ -5,10 +5,14 @@ const logger = require('../utils/logger');
 
 async function addNewMember(discordMember) {
 
-    if(typeof discordMember.username === 'undefined')
-        throw new Error("Ce membre n'est pas valide, j'aime pas son format, j'en veux pas !");
+    let username = discordMember.username || discordMember.user.username;
 
-    console.log("addNewMember => " + discordMember.username);
+    if(typeof username === 'undefined'){
+        console.error("USERNAME UNDEFINED");
+        console.error(discordMember);
+    }
+
+    console.log("addNewMember => " + username);
 
     let dbMember = await models.Member.findOne({
         where: {
@@ -22,14 +26,14 @@ async function addNewMember(discordMember) {
     }
 
     // Add security checks
-    if (discordMember.username == null) {
+    if (username == null) {
         logger.addError(new Error("Member with ID " + discordMember.id + " doesn't have a username !"));
-        discordMember.username = "UNKNOWN PSEUDO";
+        username = "UNKNOWN PSEUDO";
     }
 
     return await models.Member.create({
         appId: discordMember.id,
-        pseudo: discordMember.username,
+        pseudo: username,
         level: 0,
         xp: 0,
         totalVoiceMinute: 0,
