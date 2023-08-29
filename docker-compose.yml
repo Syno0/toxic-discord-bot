@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  toxic:
+    container_name: toxic
+    image: toxic
+    env_file:
+      - .env
+    network_mode: "host"

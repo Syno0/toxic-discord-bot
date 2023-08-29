@@ -4,12 +4,12 @@ const env = 'develop';
 const config = {
 	develop: {
 		env: 'develop',
-		guildID: '', // Your discord guild ID
-		debug: true // To logs more stuff
+		guildID: process.env.guildIDdevelop || '',
+		debug: true
 	},
 	production: {
 		env: 'production',
-		guildID: '',
+		guildID: process.env.guildIDprod || '',
 		debug: false
 	}
 }
